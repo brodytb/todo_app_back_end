@@ -1,4 +1,47 @@
-/*
+html{
+    font-family: sans-serif;
+}
+    .time {
+        font-weight: bold;
+        color:#F44336;
+        background-color: #F4F5F6F;
+        border-radius:50px;
+        font-size:14px;
+        padding:5px 10px 5px 10px;
+    }
+    
+    #add-new-todo-button{
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        outline:none;
+        padding: 10px;
+        border: 3px;
+        box-shadow:2px 12px 10px #90A4AE;
+        display:block;
+        background-color: #03A9F4;
+        margin-top:10px;
+    }
+        
+        #add-new-todo-button:active{
+            box-shadow: 1px 1px 1px #90A4AE;
+        }
+        
+        #add-new-todo-button:hover{ 
+            color: #000
+        }
+      .box-one{
+          background-color:#E74C3C;
+      color:#ECFDF1;
+      
+      }
+      .box-two {
+        background-color: #3498D8;
+        color: #ECFOF1;
+      }
+      .completed-todo{
+          text-decoration:line-through;
+      }/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
